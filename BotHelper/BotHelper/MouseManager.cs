@@ -28,7 +28,7 @@ namespace BotHelper
         private static extern bool GetCursorPos(out MousePoint lpMousePoint);
 
         [DllImport("user32.dll")]
-        private static extern void mouse_event(int dwFlags, int dx, int dy, int dwData, int dwExtraInfo);
+        private static extern void Mouse_event(int dwFlags, int dx, int dy, int dwData, int dwExtraInfo);
 
         public static void SetCursorPosition(int x, int y)
         {
@@ -52,7 +52,7 @@ namespace BotHelper
         {
             MousePoint position = GetCursorPosition();
 
-            mouse_event
+            Mouse_event
                 ((int)value,
                  position.X,
                  position.Y,
@@ -63,7 +63,7 @@ namespace BotHelper
 
         public static void MouseEventAtPosition(MouseEventFlags value, int x, int y)
         {
-            mouse_event
+            Mouse_event
                 ((int)value,
                  x,
                  y,

@@ -7,15 +7,15 @@ using System.Threading;
 
 namespace BotHelper
 {
-    class KayManager
+    public class KayManager
     {
         private InputSimulator _inputSimulator;
+
         public KayManager()
         {
             _inputSimulator = new InputSimulator();
         }
 
-        // zamiast dict zrobić enum
         public static Dictionary<string, VirtualKeyCode> KaysDict = new Dictionary<string, VirtualKeyCode> {
         // F
         { "F1" , VirtualKeyCode.F1},
