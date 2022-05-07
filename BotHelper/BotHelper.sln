@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BotHelper", "BotHelper\BotHelper.csproj", "{48D50A22-DB5D-41D0-A075-2232DEBC8C39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWindowApp", "TestWindowApp\TestWindowApp.csproj", "{99DF6E17-BE18-4AED-A67F-8D8B2D0BCB79}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48D50A22-DB5D-41D0-A075-2232DEBC8C39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48D50A22-DB5D-41D0-A075-2232DEBC8C39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48D50A22-DB5D-41D0-A075-2232DEBC8C39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48D50A22-DB5D-41D0-A075-2232DEBC8C39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99DF6E17-BE18-4AED-A67F-8D8B2D0BCB79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99DF6E17-BE18-4AED-A67F-8D8B2D0BCB79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99DF6E17-BE18-4AED-A67F-8D8B2D0BCB79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99DF6E17-BE18-4AED-A67F-8D8B2D0BCB79}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {59BE2D50-9C4F-4014-98C1-71B3A89B7EE5}
+	EndGlobalSection
+EndGlobal
