@@ -21,15 +21,14 @@ namespace TestWindowApp
     /// </summary>
     public partial class MainWindow : Window
     {
-        KayManager test1;
-        KayManager test2;
-
         public MainWindow()
         {
-            test1 = new KayManager();
-            test2 = new KayManager();
-
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            PictureManager.Test();
         }
     }
 }
