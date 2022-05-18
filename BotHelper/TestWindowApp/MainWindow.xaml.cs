@@ -16,9 +16,6 @@ using System.Windows.Shapes;
 
 namespace TestWindowApp
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
         public MainWindow()
@@ -28,7 +25,7 @@ namespace TestWindowApp
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            PictureManager.Test();
+           // PictureManager.Test();
         }
     }
 }
