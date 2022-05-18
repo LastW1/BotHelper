@@ -6,3 +6,7 @@ BotHelper/.vs/
 BotHelper/BotHelper/bin/
 BotHelper/packages/
 BotHelper/TestWindowApp/bin/
+BotHelper/KeySymulator/bin/
+BotHelper/KeySymulator/obj/
+BotHelper/PictureRecognizer/bin/
+BotHelper/PictureRecognizer/obj/
